@@ -1,10 +1,11 @@
-/* NUR VOREINSTELLUNG FÜR ANFANG */
+/* NUR VOREINSTELLUNG FÜR ANFANG ----------------------------------------------------*/
 body{
 	margin: 0;
 	padding: 0;
+	font-family: arial;
 }
 
-
+/* NAVBAR + LOGO --------------------------------------------------------------------*/
 #logoID {
 	width: 20%;
 }
@@ -15,10 +16,27 @@ ul {
 
 li {
 	display: inline;
+	margin: 1%;
 }
 
+#navBar {
+	font-size: 2em;
+	font-weight: bolder;
+
+}
+a {
+	color: grey;
+	text-decoration: none;
+}
+
+/* Main Header h1 ------------------------------------------------------------------ */
+h1 {
+	font-size: 4em;
+}
+
+/* Images, Figures and Figcation ----------------------------------------------------*/
 #topImg {
-	width: 80%; /* width of container */
+	width: 90%; /* width of container */
     height: 300px; /* height of container */
     object-fit: cover;
 }
@@ -31,6 +49,32 @@ li {
 	font-weight: bold;
 }
 
-img {
-	width: 50%;
+.bottomFigures {
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+ 	/* float: left; */
+ 	width: 40%;
+}
+
+.bottomImg {
+	width: 100%;
+}
+
+
+/* Footer for Logo and Copyright -----------------------------------------------------*/
+#logoID2 {
+	width: 20%;
+}
+
+footer {
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	margin-top: 50%;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	top: 100%;
+	background-color: #CABBB7;
+
 }
