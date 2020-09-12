@@ -1,0 +1,42 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+
+h1, h2, p {
+	margin: 5% 5%;
+}
+
+/* Change NavBar similar to index.html */
+nav {
+	font-size: 2em;
+	font-weight: bolder;
+	text-align: right;
+	padding-right: 7%;
+	background-color: #C65252;
+	border: solid 1px white;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+	margin: 1%;
+}
+
+
+/* Change form tag in contact.html */
+form {
+	margin-top: 5%;
+	margin-left: 10%;
+}
+

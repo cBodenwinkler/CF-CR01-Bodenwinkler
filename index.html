@@ -1,58 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<head>
+	<head> <!-- Head with Title, charset-utf8, and link to external stylesheet -->
 		<meta charset="UTF-8">
 		<title>Web Dev Bodenwinkler</title>
 
-		<link rel="stylesheet" type="text/css" href="CSS Styles/styles.css"> <!-- Integration style.css from CSS Styles Folder -->
-		<link rel="stylesheet" type="text/css" href=""> 
+		<!-- Integration style.css from CSS Styles Folder -->
+		<link rel="stylesheet" type="text/css" href="CSS Styles/styles.css">
 	</head>
 
-
-
 	<body>
-
 		<header>
-			<div> <!-- div for Logo and h2 -->
+			<div id="headerDiv"> <!-- div for Logo and h2 -->
 				<h2>Christian Bodenwinkler - Full Stack Web Developer</h2>
-				<img id="logoID" src="img/logo.png" alt="Logo CodeFactory Vienna">
+				<span id="spanID"> <img id="logoID" src="img/logo.png" alt="Logo CodeFactory Vienna"> </span>
 			</div>
 		</header>
 
-		<nav>
-			<ul>  <!-- NavList and Red Background --> 
-				<li>Home</li>
-				<li>Blog</li>
-				<li>About me</li>
-				<li>Contact</li>				
+		<nav id="navTag">
+			<ul id="navBar">  <!-- NavList and Red Background --> 
+				<li> <a href="index.html"> Home </a> </li>
+				<li> <a href="subsites/blog.html"> Blog </a> </li>
+				<li> <a href="subsites/aboutMe.html"> About me </a> </li>
+				<li> <a href="subsites/contact.html"> Contact </a> </li>
 			</ul>
 		</nav>
 
 		<!-- h1 for big Headline -->
-		<h1>This is my first Website :D</h1>
+		<h1>This is my first <br> Website :D</h1>
 
 		<!-- Pics with added figcaptions -->
-		<figure id="topFigure">
+		<figure id="topFigure"> <!-- big top/central pic -->
 			<img id="topImg" src="img/Phone.png" alt="Picture of a Cellphone">
 			<figcaption>Samsung Galaxy S11/S20 Plus video leaks showing phone in real life!</figcaption>
 		</figure>
 
-		<figure>
-			<img src="img/Debit_card_ATM.jpg" alt="Picture of a Cellphone">
-			<figcaption>Samsung Galaxy S11/S20 Plus video leaks showing phone in real life!</figcaption>
-		</figure>
+		<div id="bothBottomPics"> <!-- Bottom Pics in one div container -->
+			<figure class="bottomFigure"> <!-- left bottom pic -->
+				<img class="bottomImg" src="img/Debit_card_ATM.jpg" alt="Picture of a Cellphone">
+				<figcaption>Police are investigating three ATM explosions in two Florida counties</figcaption>
+			</figure>
 
-		<figure>
-			<img src="img/Taxify-Scooters.jpg" alt="Picture of a Cellphone">
-			<figcaption>Samsung Galaxy S11/S20 Plus video leaks showing phone in real life!</figcaption>
-		</figure>
+			<figure class="bottomFigure"> <!-- right bottom pic -->
+				<img class="bottomImg" src="img/Taxify-Scooters.jpg" alt="Picture of a Cellphone">
+				<figcaption>E-scooter firm Bolt pulls out of 12 cities</figcaption>
+			</figure>
+		</div>
 
 
-
-
-		<footer>
-			<img src="img/logo.png" alt="Logo CodeFactory Vienna">
+		<!-- Footer for Logo and CopyRight -->
+		<footer>  
+			<img id="logoID2" src="img/logo.png" alt="Logo CodeFactory Vienna">
 			<p>Christian Bodenwinkler - CodeFactory 2020</p>
 		</footer>
 
